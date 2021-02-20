@@ -93,11 +93,6 @@ let database = new sqlite.Database("personel.sqlite", (err) => {
 
 
 
-//middleware
-
-//db config
-
-// ???
 
 // api routes 
 
