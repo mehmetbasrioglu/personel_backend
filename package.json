@@ -1,0 +1,23 @@
+{
+  "name": "personel_sunucu",
+  "version": "1.0.0",
+  "description": "Personel Back End",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js"
+  },
+  "author": "Mehmet Basrioğlu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "md5": "^2.3.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.0.1"
+  }
+}
